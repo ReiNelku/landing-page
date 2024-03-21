@@ -166,3 +166,24 @@ main {
   font-weight: bold;
   text-align: right;
 }
+
+.sign-up {
+  align-self: center;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-family: sans-serif;
+  border-radius: 4px;
+  padding: 24px 128px;
+  margin: 24px 0;
+  display: flex;
+  gap: 128px;
+}
+
+.sign-up button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: bold;
+  border: 2px solid #f9faf8;
+  border-radius: 4px;
+  padding: 0 32px;
+}

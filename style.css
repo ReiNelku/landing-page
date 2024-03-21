@@ -2,11 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-html,
-body {
-  height: 100%;
+  font-family: sans-serif;
 }
 
 body {
@@ -29,7 +25,6 @@ header {
 
 .navigation .logo {
   color: #f9faf8;
-  font-family: sans-serif;
   font-size: 24px;
   font-weight: bold;
   margin-right: auto;
@@ -46,7 +41,6 @@ header {
 .links a {
   text-decoration: none;
   color: #e5e7eb;
-  font-family: sans-serif;
   font-size: 18px;
 }
 
@@ -66,7 +60,6 @@ header {
 
 .title h1 {
   color: #f9faf8;
-  font-family: sans-serif;
   font-size: 48px;
   font-weight: 800;
   line-height: 1;
@@ -74,7 +67,6 @@ header {
 
 .title p {
   color: #e5e7eb;
-  font-family: sans-serif;
   font-size: 18px;
 }
 
@@ -110,7 +102,6 @@ main {
 
 .info h2 {
   color: #1f2937;
-  font-family: sans-serif;
   font-size: 36px;
   font-weight: 800;
   padding: 24px 0;
@@ -137,7 +128,6 @@ main {
 
 .card p {
   color: grey;
-  font-family: sans-serif;
   text-align: center;
   margin-top: 8px;
 }
@@ -155,14 +145,12 @@ main {
 
 .quote blockquote {
   color: #1f2937;
-  font-family: sans-serif;
   font-size: 36px;
   font-style: italic;
   font-weight: 300;
 }
 
 .quote address {
-  font-family: sans-serif;
   font-weight: bold;
   text-align: right;
 }
@@ -171,10 +159,9 @@ main {
   align-self: center;
   background-color: #3882f6;
   color: #f9faf8;
-  font-family: sans-serif;
   border-radius: 4px;
   padding: 24px 128px;
-  margin: 24px 0;
+  margin: 64px 0;
   display: flex;
   gap: 128px;
 }
@@ -186,4 +173,11 @@ main {
   border: 2px solid #f9faf8;
   border-radius: 4px;
   padding: 0 32px;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  text-align: center;
+  padding: 24px 0;
 }

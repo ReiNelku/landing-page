@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -14,7 +15,8 @@ body {
 }
 
 header {
-  background-color: #1F2937;
+  background-color: #1f2937;
+  padding:  0 192px;
   display: flex;
   flex-direction: column;
 }
@@ -22,7 +24,6 @@ header {
 .navigation {
   padding: 10px 0;
   display: flex;
-  justify-content: space-around;
   align-items: center;
 }
 
@@ -31,6 +32,7 @@ header {
   font-family: sans-serif;
   font-size: 24px;
   font-weight: bold;
+  margin-right: auto;
 }
 
 .navigation .links {
@@ -46,4 +48,50 @@ header {
   color: #e5e7eb;
   font-family: sans-serif;
   font-size: 18px;
+}
+
+.hero {
+  padding: 64px 0;
+  display: flex;
+}
+
+.title {
+  flex-basis: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  margin-right: auto;
+}
+
+.title h1 {
+  color: #f9faf8;
+  font-family: sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.title p {
+  color: #e5e7eb;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.title button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 4px 24px;
+  border: none;
+  border-radius: 4px;
+}
+
+.hero-image {
+  background-color: grey;
+  color: #f9faf8;
+  font-family: "roboto", sans-serif;
+  flex-basis: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
